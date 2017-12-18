@@ -15,4 +15,4 @@ rpm -ivh libpng-1.2.49-1.el6_2.x86_64.rpm
 3、编译gd_captcha.so
 gcc gd_captcha.c -o gd_captcha -lgd -lpng -lz -ljpeg -lfreetype -lm
 
-调用gd_captcha:erl_img_create(_VerifyCode)生成图形验证码串
+调用createImg生成图形验证码串
